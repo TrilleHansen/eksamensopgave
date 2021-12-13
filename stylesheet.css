@@ -1,0 +1,17 @@
+body{
+    background-color: #D1D1D1;
+    color: black;
+    margin: 0px;
+}
+
+.logo{
+    margin-top: 5px;
+    margin-left: 19px;
+}
+
+a{
+    margin-top: 5px;
+    margin-right: 5px; 
+    margin-left: 5px;
+}
+
