@@ -1,14 +1,40 @@
+@font-face {font-family: Prata;
+    src: url(font/prata-regular.ttf);
+  
+}
+@font-face {
+    font-family: OpenSansCondensed;
+    src: url(font/OpenSansCondensed-Light.ttf);
+}
+
 body{
-    background-color: #D1D1D1;
+    background-color: #B8DAF3;
     color: black;
     margin: 0px;
 }
 
+nav{
+    background-color: #D1D1D1;
+
+}
+
+.logo{
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
 .pro{
+    border-radius: 5%;
     background-color: #B8DAF3;
     margin-left: 140px;
     margin-right: 140px;
     text-align: center;
+    font-family: prata;
 }
 
 .Dans{
@@ -20,10 +46,90 @@ body{
     text-align: center;
    padding-top: 1px;
    color: black;
+   font-family: prata;
 }
 
 .over-pro{
     background-color: white;
     margin-left: 37px;
     margin-right: 37px;
+    font-family: OpenSansCondensed;
+}
+
+.klik-dans{
+    background-color: #B8DAF3;
+    margin-left: 273px;
+    margin-right: 90px;
+    text-decoration:none;
+}
+
+.contem{
+    margin-top: 10px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+
+.events{
+    margin-top: 10px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+
+
+.iværk{
+    background-color: #B8DAF3;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 5px;
+    border-radius: 5%;
+    text-align: center;
+   padding-top: 1px;
+   color: black;
+}
+
+.over-iværk{
+    background-color: white;
+    margin-left: 37px;
+    margin-right: 37px;  
+}
+
+.klik-iværk{
+    background-color: #D1D1D1;
+    margin-left: 273px;
+    margin-right: 90px;
+}
+
+.tilmeld{
+    margin-top: 10px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.video{
+    background-color: #B8DAF3;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 5px;
+    border-radius: 5%;
+    text-align: center;
+   padding-top: 1px;
+   color: black;
+}
+
+.outro{
+    margin-top: 10px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.se{
+    margin-top: 10px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.foot{
+    background-color: #D1D1D1;
 }
