@@ -13,20 +13,18 @@ body{
     margin: 0px;
 }
 
-nav{
-    background-color: #D1D1D1;
-
-}
-
 .logo{
-   
+    background-color: #D1D1D1;
+    
 }
 
-a{
+.menu a{
     text-decoration: none;
     color: black;
-
+    
 }
+
+
 
 .pro{
     border-radius: 5%;
@@ -54,13 +52,17 @@ a{
     margin-left: 37px;
     margin-right: 37px;
     font-family: OpenSansCondensed;
+    font-size: 25px;
 }
 
 .klik-dans{
-    background-color: #B8DAF3;
+    background-color: white;
     margin-left: 273px;
     margin-right: 90px;
     text-decoration:none;
+    font-family: OpenSansCondensed;
+    font-size: 20px;
+    
 }
 
 .contem{
@@ -76,8 +78,6 @@ a{
     margin-right: 37px;
 }
 
-
-
 .iværk{
     background-color: #B8DAF3;
     margin-left: 140px;
@@ -87,18 +87,25 @@ a{
     text-align: center;
    padding-top: 1px;
    color: black;
+   font-family: prata;
 }
 
 .over-iværk{
     background-color: white;
     margin-left: 37px;
-    margin-right: 37px;  
+    margin-right: 37px;
+    font-family:  OpenSansCondensed;
+    font-size: 20px; 
+
 }
 
 .klik-iværk{
-    background-color: #D1D1D1;
+    background-color: white;
     margin-left: 273px;
     margin-right: 90px;
+    font-size: 25px;
+    font-family: OpenSansCondensed;
+    text-decoration:none;
 }
 
 .tilmeld{
@@ -116,6 +123,7 @@ a{
     text-align: center;
    padding-top: 1px;
    color: black;
+   font-family: prata;
 }
 
 .outro{
@@ -132,4 +140,13 @@ a{
 
 .foot{
     background-color: #D1D1D1;
+}
+
+@media screen and (min-width: 720px){
+    
+}
+
+
+@media screen and (min-width ){
+
 }
