@@ -14,39 +14,118 @@ body{
 }
 
 .logo{
+    background-color: #D1D1D1;
+    height: 5px;
+    width: 5px;
+}
+
+.menu{
+    text-align: right;
+    font-family: prata;
+    font-size: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    text-align: right;
     
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
+/* profil billede */
 .profil{
-    margin-left: 37px;
-    margin-right: 37px; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    width: 100px;
+    height: 150px;
 }
 
+/* om mig */
 .om-mig{
     background-color: white;
-    margin-left: 37px;
-    margin-right: 37px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: OpenSansCondensed;
-    font-size: 25px;
+    font-size: 12px;
+    text-align: center;
 }
 
+/* billede af skammel indefra */
 .skammel{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    text-align: center;
+    width: 150px;
+    height: 200px;
 }
 
+/* billede af stol */
 .stol{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  text-align: center;
+  width: 150px;
+  height: 200px;
 
 }
 
+/* footer */
+footer{
+    background-color: #D1D1D1;
+    width: 100%;
+position: fixed;
+bottom: 0;
+text-align: center;
+size: 25px;
+}
+
+.some{
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+}
+
+/* media query til ipad */
+@media screen (min-width: 720px){
+   
+    .profil{
+        width: 300px;
+        height: 200px;
+    }
+
+    .skammel, .stol{
+        width: 800px;
+        height: 1000px;
+        justify-content: center;
+
+    }
+
+    .om-mig{
+        font-size: 25px;
+    }
+    
+}
+
+/* media query til web */
+@media screen (min-width: 2000)
+
+    .profil{
+        width: 800px;
+        height: 950px;
+    }
+
+    .skammel, .stol{
+        width: 800px;
+        height: 1000px;
+        justify-content: center;
+
+    }
+
+    .om-mig{
+        font-size: 55px;
+    }
+}
