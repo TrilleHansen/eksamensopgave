@@ -13,39 +13,54 @@ body{
     margin: 0px;
 }
 
-.logo{
+nav{
+    display: flex;
     background-color: #D1D1D1;
-    width: 120%;
+    width: 102%;
 }
+
+.logo{
+    height: 15px;
+    width: 15px;
+}
+
+/*  */
 
 .menu{
     text-align: right;
     font-family: prata;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-content: right;
+    
     
 }
+
+
 
 .menu a{
     text-decoration: none;
     color: black;
     text-align: right;
-    
+    margin: 10px;
 }
 
-
-
+/* overskrift til forsiden */
 .pro{
     background-color: #B8DAF3;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-family: prata;
 }
 
-.Dans{
+/* overskrift til projekt dans */
+.dans{
+
     background-color: #B8DAF3;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5px;
     text-align: center;
    padding-top: 1px;
@@ -53,41 +68,43 @@ body{
    font-family: prata;
 }
 
+/* brødtekst til dans */
 .over-pro{
     background-color: white;
-    margin-left: 37px;
-    margin-right: 37px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: OpenSansCondensed;
     font-size: 25px;
+    text-align: center;
+    width: 100%;
 }
 
+/* buttem til dans */
 .klik-dans{
     background-color: white;
-    margin-left: 273px;
-    margin-right: 90px;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration:none;
     font-family: OpenSansCondensed;
     font-size: 20px;
-    
+    text-align: center;
 }
 
-.contem{
+/* billeder til dans */
+.pro-dans{
     margin-top: 10px;
-    margin-left: 37px;
-    margin-right: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 340px;
+    height: 200px;
 }
 
-
-.events{
-    margin-top: 10px;
-    margin-left: 37px;
-    margin-right: 37px;
-}
-
+/* overskrift til projekt iværksætteri */
 .iværk{
     background-color: #B8DAF3;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5px;
     border-radius: 5%;
     text-align: center;
@@ -96,66 +113,85 @@ body{
    font-family: prata;
 }
 
+/* brødtekst til iværksætteri */
 .over-iværk{
     background-color: white;
-    margin-left: 37px;
-    margin-right: 37px;
+    margin-left: auto;
+    margin-right: auto;
     font-family:  OpenSansCondensed;
     font-size: 20px; 
-
+    text-align: center;
 }
 
+/* butten til projekt iværksætteri */
 .klik-iværk{
     background-color: white;
-    margin-left: 273px;
-    margin-right: 90px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 25px;
     font-family: OpenSansCondensed;
-    text-decoration:none;
+    text-decoration: none;
+    text-align: center;
 }
 
+/* billede til iværksætteri */
 .tilmeld{
     margin-top: 10px;
-    margin-left: 37px;
-    margin-right: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 340px;
+    height: 200px;
 }
 
+/* overskrift til video */
 .video{
     background-color: #B8DAF3;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5px;
     border-radius: 5%;
     text-align: center;
    padding-top: 1px;
    color: black;
    font-family: prata;
+   text-align: center;
 }
 
+/* filmen */
 .gruppe-1{
     margin-top: 10px;
-    margin-left: 37px;
-    margin-right: 37px;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
     width: 340px;
 }
 
-.outro{
+/* biller fra filmen */
+.outro, .se{
     margin-top: 10px;
-    margin-left: 37px;
-    margin-right: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 340px;
+    width: 200px;
 }
 
-.se{
+/* brødtekst til video */
+.videotekst{
     margin-top: 10px;
-    margin-left: 37px;
-    margin-right: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 340px;
 }
 
+/* footer */
 footer{
     background-color: #D1D1D1;
-    width: 120%;
-position: relative;
+    width: 100%;
+position: fixed;
+bottom: 0;
 text-align: center;
 size: 25px;
 }
@@ -163,15 +199,29 @@ size: 25px;
 .some{
     display: flex;
     justify-content: center;
+    height: 15px;
+    width: 15px;
 }
 
 
-
-
-
+/* media query til ipad */
 @media screen and (min-width: 720px){
-
+    .pro{
+        font-size: 35px;
+    }
     
+    .dans{
+        font-size: 25px;
+    }
+    
+    .klik-dans{
+        font-size: 25px; 
+    }
+    
+    .pro-dans{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
 }
-
-
