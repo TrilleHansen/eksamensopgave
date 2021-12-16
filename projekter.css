@@ -15,19 +15,26 @@ body{
 
 .logo{
     background-color: #D1D1D1;
+    width: 120%;
+}
+
+.menu{
+    text-align: right;
+    font-family: prata;
+    font-size: 15px;
     
 }
 
 .menu a{
     text-decoration: none;
     color: black;
+    text-align: right;
     
 }
 
 
 
 .pro{
-    border-radius: 5%;
     background-color: #B8DAF3;
     margin-left: 140px;
     margin-right: 140px;
@@ -40,7 +47,6 @@ body{
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 5px;
-    border-radius: 5%;
     text-align: center;
    padding-top: 1px;
    color: black;
@@ -126,6 +132,14 @@ body{
    font-family: prata;
 }
 
+.gruppe-1{
+    margin-top: 10px;
+    margin-left: 37px;
+    margin-right: 37px;
+    height: 200px;
+    width: 340px;
+}
+
 .outro{
     margin-top: 10px;
     margin-left: 37px;
@@ -138,15 +152,26 @@ body{
     margin-right: 37px;
 }
 
-.foot{
+footer{
     background-color: #D1D1D1;
+    width: 120%;
+position: relative;
+text-align: center;
+size: 25px;
 }
 
+.some{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
 @media screen and (min-width: 720px){
+
     
 }
 
 
-@media screen and (min-width ){
-
-}
